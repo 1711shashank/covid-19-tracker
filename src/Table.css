@@ -1,17 +1,19 @@
 .table {
   margin-top: 20px;
-  overflow: scroll;
-  height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
   color: #6a5d5d;
+  background-color: white;
+  height: 450px;
+}
+.table td {
+  padding: 0.5rem;
+  border: none;
 }
 .table tr {
   display: flex;
   justify-content: space-between;
 }
-.table td {
-  padding: 0.5rem;
-}
-
 .table tr:nth-of-type(odd) {
   background-color: #f3f2f8;
 }
